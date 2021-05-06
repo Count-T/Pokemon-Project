@@ -1,5 +1,3 @@
-# React-Boilerplate
-My Variation of React Boiler Plate
+# POKEMON PROJECT
 
-# Dependencies
-1. Material UI Core, Styles and Icons
+1. Used Pokedex api
