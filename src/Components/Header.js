@@ -5,7 +5,7 @@ function Header() {
     <div>
       <AppBar>
         <Typography variant="h2" align="center">
-          Pokemon Information
+          Pokedex
         </Typography>
       </AppBar>
     </div>
