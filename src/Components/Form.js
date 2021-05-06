@@ -107,7 +107,16 @@ function Form() {
         setDisplayName(() => name.toUpperCase());
         setId(() => data.id);
         setType(() => data.types[0].type.name);
-        setWeight(() => data.weight);
+        setWeight(() => data.weight / 10.0);
+        setHeight(() => data.height * 10.0);
+        setAttackMoves(
+          () =>
+            data.moves[0].move.name +
+            "," +
+            data.moves[1].move.name +
+            "," +
+            data.moves[2].move.name
+        );
         console.log(data);
         console.log(data.types[0].type.name);
       })
