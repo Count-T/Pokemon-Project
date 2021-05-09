@@ -95,6 +95,11 @@ function Form() {
           );
           setDisplayName(() => "NO SUCH POKEMON");
           console.log(error);
+          setWeight("");
+          setId("");
+          setType("");
+          setHeight("");
+          setAttackMoves("");
         });
       e.preventDefault();
     }
@@ -127,6 +132,11 @@ function Form() {
         );
         setDisplayName(() => "NO SUCH POKEMON");
         console.log(error);
+        setWeight("");
+        setId("");
+        setType("");
+        setHeight("");
+        setAttackMoves("");
       });
   };
   return (
